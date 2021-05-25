@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block body %}
+    <!-- portofolio section -->
+    <div class="portofolio">
+        <div class="container">
+            <h2 class="special-head">Our Team</h2>
+            <p>if you do it right, it will last</p>
+            <div class="portofolio-content wow swing">
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/ali.jpg')}}" alt="">
+                    <h3>Ali Shemy</h3>
+                    <p>An IT Suez university Student who adores IT specialization one of the hard workers.</p>
+                </div>
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/soliman.jpg')}}" alt="">
+                    <h3>Soliman Mohamed </h3>
+                    <p>An IT Suez university Student who adores IT specialization one of the elite students.</p>
+                </div>
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/Abdelrahman.jpg')}}" alt="">
+                    <h3>Abdelrahman Elrefai</h3>
+                    <p>A CS student who is specialized in full stack web developing.</p>
+                </div>
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/avatar1.png')}}" alt="">
+                    <h3>Ayman Nasr</h3>
+                    <p>A CS student who is specialized in Android Programming.</p>
+                </div>
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/avatar2.png')}}" alt="">
+                    <h3>Ahmed Khamis</h3>
+                    <p>An IT Suez university Student who adores IT specialization one of the elite students.</p>
+                </div>
+                <div class="card hvr-wobble-to-bottom-right ">
+                    <img src="{{url_for('static',filename='./image/avatar3.png')}}" alt="">
+                    <h3>sameh Elmetwally</h3>
+                    <p>A CS student who is specialized in Android Programming.</p>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- home-about section -->
+    <div class="about">
+        <div class="container">
+            <h2 class="special-head">About</h2>
+            <p>to work less work more</p>
+            <div class="about-content wow swing">
+                <div class="about-img ">
+                    <img class="hvr-wobble-to-bottom-right" src="{{url_for('static',filename='./image/cameras.webp')}}" alt="">
+                    <span class="span-one"></span>
+                    <span class="span-two"></span>
+                </div>
+
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliqui</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliqu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+{% endblock %}

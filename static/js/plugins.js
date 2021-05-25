@@ -45,13 +45,3 @@ anime.timeline({loop: true})
   });
 
 
-
-
-
-
-
-
-
-
-
-
